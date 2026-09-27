@@ -1,0 +1,14 @@
+[
+  {
+    "name": "generate_wireframe_tree",
+    "description": "Generates UI component hierarchy and design tokens.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "screens": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "generate_risk_matrix",
+    "description": "Synthesizes risk factors into 5x5 heatmap dataset.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "risks": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MarketingAgent Schema",
+  "type": "object",
+  "properties": {
+    "agent": {
+      "type": "string",
+      "const": "MarketingAgent"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "In_Progress",
+        "Completed",
+        "Failed"
+      ]
+    },
+    "risk": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "estimated_days": {
+      "type": "number"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "agent",
+    "status",
+    "risk",
+    "estimated_days",
+    "dependencies",
+    "summary"
+  ]
+}

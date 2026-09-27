@@ -1,0 +1,14 @@
+[
+  {
+    "name": "generate_cicd_pipeline",
+    "description": "Creates CI/CD YAML configuration.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]

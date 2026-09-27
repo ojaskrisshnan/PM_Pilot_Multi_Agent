@@ -1,0 +1,14 @@
+[
+  {
+    "name": "build_test_suite",
+    "description": "Generates unit and E2E test suites.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "endpoints": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

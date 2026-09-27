@@ -1,0 +1,14 @@
+[
+  {
+    "name": "generate_openapi_spec",
+    "description": "Builds OpenAPI specification for REST endpoints.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "modules": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

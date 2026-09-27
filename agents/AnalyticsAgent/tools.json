@@ -1,0 +1,14 @@
+[
+  {
+    "name": "define_telemetry_schema",
+    "description": "Builds event tracking taxonomy.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "events": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

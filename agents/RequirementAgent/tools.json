@@ -1,0 +1,14 @@
+[
+  {
+    "name": "extract_user_stories",
+    "description": "Breaks down project prompt into user stories.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]

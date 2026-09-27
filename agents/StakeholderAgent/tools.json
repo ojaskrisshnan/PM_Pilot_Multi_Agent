@@ -1,0 +1,14 @@
+[
+  {
+    "name": "create_exec_brief",
+    "description": "Outputs high-level summary for board members.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "metrics": {
+          "type": "object"
+        }
+      }
+    }
+  }
+]

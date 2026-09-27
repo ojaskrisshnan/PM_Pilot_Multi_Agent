@@ -1,0 +1,44 @@
+[
+  {
+    "name": "create_roadmap",
+    "description": "Generates high level roadmap and milestones from project prompt.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_name": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  {
+    "name": "dispatch_agent",
+    "description": "Triggers specialized agent with task context.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "target_agent": {
+          "type": "string"
+        },
+        "context": {
+          "type": "object"
+        }
+      }
+    }
+  },
+  {
+    "name": "aggregate_executive_report",
+    "description": "Synthesizes outputs from all 16 agents into final report.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "all_outputs": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

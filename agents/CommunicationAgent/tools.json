@@ -1,0 +1,14 @@
+[
+  {
+    "name": "send_team_digest",
+    "description": "Generates Slack digest for team members.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "updates": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

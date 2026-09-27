@@ -1,0 +1,14 @@
+[
+  {
+    "name": "compile_docs",
+    "description": "Compiles user and API developer guides.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]

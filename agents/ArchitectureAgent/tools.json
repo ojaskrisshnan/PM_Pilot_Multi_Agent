@@ -1,0 +1,14 @@
+[
+  {
+    "name": "design_system_topology",
+    "description": "Outputs architecture specs and microservices diagram.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "scale_users": {
+          "type": "number"
+        }
+      }
+    }
+  }
+]

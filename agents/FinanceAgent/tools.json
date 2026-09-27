@@ -1,0 +1,14 @@
+[
+  {
+    "name": "calculate_tco",
+    "description": "Computes cloud infra and team labor costs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "user_scale": {
+          "type": "number"
+        }
+      }
+    }
+  }
+]

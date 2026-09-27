@@ -1,0 +1,14 @@
+[
+  {
+    "name": "audit_threat_model",
+    "description": "Runs STRIDE threat analysis on architecture.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "components": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]

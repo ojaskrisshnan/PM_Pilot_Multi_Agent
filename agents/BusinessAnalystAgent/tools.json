@@ -1,0 +1,14 @@
+[
+  {
+    "name": "evaluate_tam_sam",
+    "description": "Calculates TAM, SAM, and SOM metrics.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "agent": "QAAgent",
+  "history_count": 12,
+  "last_active": "2026-08-01T13:07:56.979Z",
+  "knowledge_base": [
+    "Best practices for Quality Assurance Agent",
+    "Standard operating procedures & compliance checks"
+  ]
+}

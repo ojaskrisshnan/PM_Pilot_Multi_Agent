@@ -1,0 +1,14 @@
+[
+  {
+    "name": "plan_frontend_stack",
+    "description": "Structures client app state and routes.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "framework": {
+          "type": "string"
+        }
+      }
+    }
+  }
+]

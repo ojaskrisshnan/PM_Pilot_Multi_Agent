@@ -1,0 +1,14 @@
+[
+  {
+    "name": "create_gtm_plan",
+    "description": "Generates go-to-market campaign and channels.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "channels": {
+          "type": "array"
+        }
+      }
+    }
+  }
+]
